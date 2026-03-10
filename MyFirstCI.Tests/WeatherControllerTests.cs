@@ -36,4 +36,9 @@ public class WeatherControllerTests
             Assert.True(forecast.Date >= today);
         }
     }
+    [Fact]
+public void AlwaysRedTest()
+{
+    Assert.True(false);
+}
 }
